@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\gameObjects">
+      <UniqueIdentifier>{20f8edc4-d8ad-4904-9ede-8a97256c300f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gameObjects">
+      <UniqueIdentifier>{93385a99-8d3e-4f10-9f2f-34390f6563a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mapGeneratorModule">
+      <UniqueIdentifier>{0c714fa3-3c94-4509-8478-eefb5e49146f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\mapGeneratorModule">
+      <UniqueIdentifier>{6efb8087-232b-4e12-a362-9ee5afdbac90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\windowBoards">
+      <UniqueIdentifier>{3686a145-df8a-44d6-ac1a-cc2fca66ba11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\windowBoards">
+      <UniqueIdentifier>{cd0ee2eb-4a89-479b-a7be-7674719f3925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\appManagers">
+      <UniqueIdentifier>{7abb02b2-d7f9-496d-a7e9-eba8a93a5f7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\appManagers">
+      <UniqueIdentifier>{d4ff5709-b5f7-4f7b-acdb-2f830b1768fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\templateFunctions">
+      <UniqueIdentifier>{02334f3d-2a8d-439c-a186-27d016d244c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="appManagers\resourcesManager.cpp">
+      <Filter>Source Files\appManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="appManagers\windowManager.cpp">
+      <Filter>Source Files\appManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObjects\ball.cpp">
+      <Filter>Source Files\gameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObjects\bonus.cpp">
+      <Filter>Source Files\gameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObjects\gameShape.cpp">
+      <Filter>Source Files\gameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObjects\ghost.cpp">
+      <Filter>Source Files\gameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObjects\pacman.cpp">
+      <Filter>Source Files\gameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObjects\wall.cpp">
+      <Filter>Source Files\gameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="mapGeneratorModule\mapGenerator.cpp">
+      <Filter>Source Files\mapGeneratorModule</Filter>
+    </ClCompile>
+    <ClCompile Include="mapGeneratorModule\mapGeneratorPlacer.cpp">
+      <Filter>Source Files\mapGeneratorModule</Filter>
+    </ClCompile>
+    <ClCompile Include="mapGeneratorModule\mapGeneratorShape.cpp">
+      <Filter>Source Files\mapGeneratorModule</Filter>
+    </ClCompile>
+    <ClCompile Include="windowBoards\gameOverBoard.cpp">
+      <Filter>Source Files\windowBoards</Filter>
+    </ClCompile>
+    <ClCompile Include="windowBoards\menuBoard.cpp">
+      <Filter>Source Files\windowBoards</Filter>
+    </ClCompile>
+    <ClCompile Include="windowBoards\scoreBoard.cpp">
+      <Filter>Source Files\windowBoards</Filter>
+    </ClCompile>
+    <ClCompile Include="windowBoards\statusStrapBoard.cpp">
+      <Filter>Source Files\windowBoards</Filter>
+    </ClCompile>
+    <ClCompile Include="appManagers\animationManager.cpp">
+      <Filter>Source Files\appManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="appManagers\collisionTests.cpp">
+      <Filter>Source Files\appManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="appManagers\collisionManager.cpp">
+      <Filter>Source Files\appManagers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="constantsDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="appManagers\resourcesManager.h">
+      <Filter>Header Files\appManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="appManagers\windowManager.h">
+      <Filter>Header Files\appManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObjects\ball.h">
+      <Filter>Header Files\gameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObjects\bonus.h">
+      <Filter>Header Files\gameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObjects\bonusType.h">
+      <Filter>Header Files\gameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObjects\gameShape.h">
+      <Filter>Header Files\gameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObjects\ghost.h">
+      <Filter>Header Files\gameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObjects\pacman.h">
+      <Filter>Header Files\gameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObjects\wall.h">
+      <Filter>Header Files\gameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="mapGeneratorModule\mapGenerator.h">
+      <Filter>Header Files\mapGeneratorModule</Filter>
+    </ClInclude>
+    <ClInclude Include="mapGeneratorModule\mapGeneratorPlacer.h">
+      <Filter>Header Files\mapGeneratorModule</Filter>
+    </ClInclude>
+    <ClInclude Include="mapGeneratorModule\mapGeneratorShape.h">
+      <Filter>Header Files\mapGeneratorModule</Filter>
+    </ClInclude>
+    <ClInclude Include="templateFunctions\vectorLoaderTemplate.h">
+      <Filter>Header Files\templateFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="templateFunctions\vectorRemoverTemplate.h">
+      <Filter>Header Files\templateFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="windowBoards\gameOverBoard.h">
+      <Filter>Header Files\windowBoards</Filter>
+    </ClInclude>
+    <ClInclude Include="windowBoards\menuBoard.h">
+      <Filter>Header Files\windowBoards</Filter>
+    </ClInclude>
+    <ClInclude Include="windowBoards\scoreBoard.h">
+      <Filter>Header Files\windowBoards</Filter>
+    </ClInclude>
+    <ClInclude Include="windowBoards\statusStrapBoard.h">
+      <Filter>Header Files\windowBoards</Filter>
+    </ClInclude>
+    <ClInclude Include="appManagers\animationManager.h">
+      <Filter>Header Files\appManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="appManagers\collisionTests.h">
+      <Filter>Header Files\appManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="appManagers\collisionManager.h">
+      <Filter>Header Files\appManagers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>
