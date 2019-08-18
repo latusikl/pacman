@@ -6,8 +6,8 @@ In this repository you will find my version of Pacman game created using:
 * C++
 * [SFML](https://www.sfml-dev.org/) library
 * Textures from [OpenGameArt](https://opengameart.org/) - Thank you Carlos Alface for Pacman textures.
-* Fonts: [Aller](https://www.fontsquirrel.com/fonts/aller) and [Adam Warren Pro](https://www.dafont.com/adam-warren-pro.font)\
-* Current version completed on 29 May 2019.
+* Fonts: [Aller](https://www.fontsquirrel.com/fonts/aller) and [Adam Warren Pro](https://www.dafont.com/adam-warren-pro.font)
+* Current version completed on 29 May 2019.\
 \
 *Repository contains Visual Studio project and source code. You can use it and run it inside this IDE or use only source code and compile it in your favourite IDE (**Please remember about linking SFML**).*
 
