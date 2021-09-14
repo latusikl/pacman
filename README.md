@@ -7,9 +7,8 @@ In this repository you will find my version of Pacman game created using:
 * [SFML](https://www.sfml-dev.org/) library
 * Textures from [OpenGameArt](https://opengameart.org/) - Thank you Carlos Alface for Pacman textures.
 * Fonts: [Aller](https://www.fontsquirrel.com/fonts/aller) and [Adam Warren Pro](https://www.dafont.com/adam-warren-pro.font)
-* Current version completed on 29th May 2019.\
 \
-*Repository contains Visual Studio project and source code. You can use it and run it inside this IDE or use only source code and compile it in your favourite IDE (**Please remember about linking SFML**).*
+*Repository contains Visual Studio project and source code. You can use it and run it inside this IDE or use only source code and compile it. (**Please remember about linking SFML**).*
 
 ---
 ### Overview ###
@@ -21,11 +20,11 @@ Start menu | Control menu
 <img src="Pictures/start.png" width=350 height=450px>  | <img src="Pictures/menuPart.png" width=350 height=450px> 
 
 Playing is simple and intuitive: 
-* You will have three lives.
-* Each contact wiht ghost will take one life from you. 
+* You have three lives.
+* Each contact wiht ghost will take one life from You. 
 * Try to score as much points as you can. 
 * Remember about special bonus which appears from time to time in the middle of map.
-* After game type your name and compare your result to other players!
+* After finishing the game type your name and compare your result to other players!
 
 Game | Score Board
 ------------- | -------------
